@@ -1,0 +1,145 @@
+@media (max-width: 1440px){
+  .top__inner{
+    padding: 0 10px;
+  }
+  .h1__hero__wrapper {    
+    font-size: 50px;
+    line-height: 67px;
+}
+.kreis__gross {  
+  min-height: 62vw;
+  min-width: 62vw;
+}
+}
+@media (max-width: 1120px){
+  .h1__hero__wrapper {
+    font-size: 36px;
+    line-height: 48px;
+}
+.about__wrapper,
+.about__picture{
+  padding: 0 15px;
+}
+}
+@media (max-width: 1000px){
+  .kreis__gross {
+    min-height: 80vw;
+    min-width: 80vw;
+}
+.kreis__klein {  
+  width: 40vw;
+  height: 40vw;
+}
+.about__wrapper {
+  display: block;
+}
+.about__picture {
+  flex-wrap: wrap-reverse;
+}
+.about__picture-text {  
+  text-align: left;
+  padding: 40px 0px;
+}
+.about__wrapper {  
+  margin: 60px 0 60px;
+}
+.about__wrapper-us{
+  font-size: 36px;
+  line-height: 49px;
+  padding-bottom: 40px;
+}
+}
+@media (max-width: 840px){
+
+  .menu__list {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;    
+    margin-left: 0;   
+    background-color: #0F0F0F;
+    text-align: center;
+    transform: translateX(-200%);
+    transition: all .7s;
+  }
+  .menu__list.menu__list--active {
+    transform: translateX(0%);
+    transition: all 1.4s; 
+  }
+  .menu__btn {
+    display: block;
+    position: absolute;
+    right: 30px;
+    bottom: -146px;    
+  }
+  .menu__list-link {    
+    line-height: 46px;
+}
+}
+@media (max-width: 690px){
+  .kreis__gross {
+    min-height: 90vw;
+    min-width: 90vw;
+}
+  .kreis__klein {
+    width: 50vw;
+    height: 50vw;
+}
+.arrow__hero {  
+  min-height: 4vw;
+  min-width: 4vw;
+}
+.about__picture-img{
+  max-width: 384px;
+  max-height: 324px;
+  padding: 0 15px 0 0;
+}
+}
+@media (max-width: 570px){
+  .kreis__gross {
+    min-height: 100vw;
+    min-width: 100vw;
+}
+  .kreis__klein {
+    width: 60vw;
+    height: 60vw;
+}
+.arrow__hero {  
+  min-height: 5vw;
+  min-width: 5vw;
+}
+.about__wrapper-text,
+.about__picture-text {  
+  font-size: 16px;
+  line-height: 26px;
+}
+}
+@media (max-width: 415px){
+  .hero__subline {    
+    margin-bottom: 20px;
+  }
+  .kreis__klein {
+    width: 53vw;
+    height: 53vw;
+}
+.h1__hero__wrapper {
+  font-size: 32px;
+  line-height: 43px;
+}
+}
+@media (max-width: 390px){
+  .hero__subline {
+    margin-bottom: 0px;
+}
+.h1__hero {
+  padding: 0;
+}
+.h1__hero__wrapper {
+  font-size: 20px;
+  line-height: 27px;
+}
+.about__picture-img {
+  max-width: 280px;
+  padding: 2px;
+}
+}
